@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="601999153">
+    <data-source source="LOCAL" name="Rails sample-cart: development" uuid="2f9f9313-b388-4f92-89ad-37804a8b490b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sample-cart_development</jdbc-url>
+      <user-name>disruption</user-name>
+      <user-password>dfe4dfc5dfd9dfecdfc5dfd8dfd8dfcbdfc7dfc5dfd9df99</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails sample-cart: test" uuid="d132ee6c-74ec-4bb6-992d-b24869b3b74f">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sample-cart_test</jdbc-url>
+      <user-name>disruption</user-name>
+      <user-password>dfe4dfc5dfd9dfecdfc5dfd8dfd8dfcbdfc7dfc5dfd9df99</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails sample-cart: production" uuid="72a1c09d-baf6-4db3-95c2-74a09c4edb1d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:sample-cart_production</jdbc-url>
+      <user-name>disruption</user-name>
+      <user-password>dfe4dfc5dfd9dfecdfc5dfd8dfd8dfcbdfc7dfc5dfd9df99</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
