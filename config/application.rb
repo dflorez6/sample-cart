@@ -58,5 +58,18 @@ module SampleCart
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+
+
+
+    # Correcting div "field with errors" from changing the appearance of forms
+    config.action_view.field_error_proc = Proc.new { |html_tag, instance|
+      "#{html_tag}".html_safe
+    }
+
+
+    # Error raro en heroku
+    config.assets.initialize_on_precompile = false
+
   end
 end
